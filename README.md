@@ -14,7 +14,7 @@ This project goes beyond basic CRUD operations to explore and apply advanced con
 The goal is to build a robust, secure, and scalable application while deepening practical knowledge in middleware architecture, security, and real-time features.
 
 So far I have learned that socket.io have 
-listen -> socket.on('event', data) -> handles incoming events from server to frontend
-emit -> socket.emit('event', data) -> sends event and data to the server
-broadcast -> socket.broadcast.emit('event', data) -> sends to everyone to client side except yourself
-global -> io.emit('event', ...) -> sends to everyone including you
+- listen -> socket.on('event', data) -> handles incoming events from server to frontend
+- emit -> socket.emit('event', data) -> sends event and data to the server
+- broadcast -> socket.broadcast.emit('event', data) -> sends to everyone to client side except yourself
+- global -> io.emit('event', ...) -> sends to everyone including you
