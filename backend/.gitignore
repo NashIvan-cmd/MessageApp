@@ -50,3 +50,5 @@ coverage/
 *.tgz
 *.bak
 *.orig
+
+*.db
